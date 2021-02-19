@@ -41,3 +41,6 @@ I have an experience in building simple web applications.
 To view click on the link:
 
 - [Infinite-scroll](https://pyroti.github.io/Infinite-scroll/)
+
+### Education ###
+- Belarusian-Russian University, The Faculty of Electrical Engineering
