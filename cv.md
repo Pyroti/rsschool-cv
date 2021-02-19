@@ -43,4 +43,9 @@ To view click on the link:
 - [Infinite-scroll](https://pyroti.github.io/Infinite-scroll/)
 
 ### Education ###
+
 - Belarusian-Russian University, The Faculty of Electrical Engineering
+
+### English Level ###
+
+- Pre-intermediate level
