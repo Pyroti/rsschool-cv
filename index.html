@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, CSS & Git Basics</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header_inner1">
+          <h1 class="autor">Ganzhin Pavel</h1>
+          <p class="specially">web-developer</p>
+        </div>
+        <div class="header_inner2">
+          <img class="avatar" src="img/avatar.jpg" alt="avatar" />
+          <div class="summary">
+            <h2 class="summary-title">Summary</h2>
+            <p class="summary-info info">
+              I'm just a beginner programmer who wants to write high-quality
+              codes. I have the time and desire to do it.
+            </p>
+            <figure class="summary-quote">
+              <blockquote>
+                To abstract from the hustle to achive unity with programming.
+              </blockquote>
+              <figcaption>
+                — Ganzhin Pavel, <cite>web-developer</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="contacts">
+          <h2 class="contacts-title">Contacts</h2>
+          <ul class="contacts-info info">
+            <li>Email: pavel.gangin@gmail.com</li>
+            <li>
+              GitHub:
+              <a
+                href="https://github.com/Pyroti"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Pyroti</a
+              >
+            </li>
+            <li>Telegram: @Pyroti</li>
+            <li>
+              VK:
+              <a
+                href="https://vk.com/gothci"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Pavel Ganzhin</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h2 class="skills-title">Technical Skills</h2>
+          <ul class="skills-info info">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Block, Element, Modifier (BEM)</li>
+            <li>Git</li>
+            <li>Photoshop</li>
+            <li>Code Editor (Visual Studio Code)</li>
+          </ul>
+        </section>
+        <section class="code">
+          <h2 class="code-title">Code examples</h2>
+          <div class="skills-info info">
+            <i
+              >This code creates the function that get photos from Unsplash
+              API.</i
+            >
+            <pre>
+                <code>
+                    async function getPhotos(){
+                        try{
+                            const response = await fetch(apiUrl);
+                            photosArray = await response.json();
+                            displayPhotos();
+                        } catch(error){
+                            console.log(error.message)
+                        }
+                    }
+                </code>
+            </pre>
+          </div>
+        </section>
+        <section class="experience">
+          <h2 class="experience-title">Experience</h2>
+          <p class="experience-info info">
+            I have an experience in building simple web applications. To view
+            click on the link:
+          </p>
+          <ul class="experience-info_list info">
+            <li>
+              <a
+                href="https://pyroti.github.io/Infinite-scroll/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Infinite-scroll</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="education">
+          <h2 class="education-title">Education</h2>
+          <ul class="education-info info">
+            <li>
+              Belarusian-Russian University, The Faculty of Electrical
+              Engineering
+            </li>
+          </ul>
+        </section>
+        <section class="english">
+          <h2 class="english-title">English Level</h2>
+          <ul class="english-info info">
+            <li>Pre-intermediate level</li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <i class="footer-info">Last updated on: February, 2021</i>
+      </footer>
+    </div>
+  </body>
+</html>
